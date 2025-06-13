@@ -1,10 +1,12 @@
-import Fruits from "./Fruits";
+import Comp from "./Comp";
+import Maximum from "./Maximum";
+
 
 
 
 function App() {
   return (
-   <Fruits/>
+   <Maximum/>
   )
 }
 export default App;
