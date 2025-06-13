@@ -1,9 +1,9 @@
-import Usestate from './Usestate';
+import Comp from "./Comp";
+
 
 function App() {
   return (
-   <Usestate/>
+    <Comp/>
   );
-}
-
+};
 export default App;
