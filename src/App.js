@@ -1,9 +1,10 @@
-import Comp from "./Comp";
+import Fruits from "./Fruits";
+
 
 
 function App() {
   return (
-    <Comp/>
-  );
-};
+   <Fruits/>
+  )
+}
 export default App;
