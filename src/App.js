@@ -1,12 +1,9 @@
-import Comp from "./Comp";
-import Maximum from "./Maximum";
-
-
+import Car from "./Car";
 
 
 function App() {
   return (
-   <Maximum/>
+ <Car/>
   )
 }
 export default App;
