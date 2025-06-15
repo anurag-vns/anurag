@@ -2,20 +2,6 @@ import React, { useState } from "react";
 
 function Car(){
 const [taxi, setTaxi] = useState({Name:"Safari",Color: "White", Company:"Tata", Model :"2025"});
-
-/*const UpdateColor=()=>{
-    setTaxi(previousState=>{
-        return{...previousState,Color:"black"}
-    });
-
-    const updateColor = (newColor) => {
-    setTaxi({ ...taxi, color: newColor });
-  }*/
-
-    /*function updateColor()
-    {
-        setTaxi(taxi)
-    }*/
    const updateColor= () =>{
     setTaxi({...taxi, Color:"Blue"});
    }
