@@ -1,10 +1,11 @@
 
-import Maxmin from "./Maxmin";
+import Effect from "./Effect";
+
 
 
 function App() {
   return (
- <Maxmin/>
+ <Effect/>
   );
 };
 export default App;
