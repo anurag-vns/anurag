@@ -1,10 +1,11 @@
-
 import Maximum from "./Maximum";
+
+
 
 
 function App() {
   return (
- <Maximum/>
-  )
+    <Maximum/>
+  );
 }
 export default App;

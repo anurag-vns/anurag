@@ -1,23 +1,36 @@
 import React, { useState } from "react";
 function Maximum() {
 
-    const [a, setA] = useState(0);
-    const [b, setB] = useState(0);
-    const [min, setMin] = useState((a<b)? a:b);
+    const [a, setA] = useState('');
+    const [b, setB] = useState('');
+    const [c, setC] = useState('');
+    const [max, setMax] = useState((a >= b && a >= c) ? a : (b >= c) ? b : c);
+
+    const handlechangeA = (event) => {
+        setA(event.target.value);
+    };
+
+    const handlechangeB = (event) => {
+        setB(event.target.value);
+
+    }
+
+    const handlechangeC = (event) => {
+        setC(event.target.value);
+    };
 
     return (
         <>
-            <h1>A: {a}</h1>
-            <h1>B:{b}</h1>
-            <h1>Min Value is:{min ? a : b}</h1>
-           
+            <h1>First Value: {a}</h1>
+            <h1>Second Value:{b}</h1>
+            <h1>Third value:{c}</h1>
+            <h1>Find Largest Value:{max}</h1>
 
-
-            <button onClick={() => setA(a + 1)}>First Value</button>
-            <button onClick={() => setB(b + 1)}>Second Valuse</button>
-            
-            <button onClick={() => setMin(a < b)? a:b}>Update MaxValue</button>
-            </>
-  );
+            <input type="text"  value={a} onChange={handlechangeA} placeholder="Enter First Number"/>
+            <input type="text" value={b} onChange={handlechangeB} placeholder="Enter second number" />
+            <input type="text"  value={c} onChange={handlechangeC}  placeholder="Enter third number"/>
+            <button onClick={() => setMax((a >= b && a >= c) ? a : (b >= c) ? b : c)}>Update MaxValue</button>
+        </>
+    );
 }
 export default Maximum;
