@@ -1,11 +1,8 @@
-import Effects from "./Effects";
-
-
-
+import Calculation from "./Calculation";
 
 function App() {
   return (
- <Effects/>
+    <Calculation />
   );
 };
 export default App;
