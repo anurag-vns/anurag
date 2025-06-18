@@ -1,13 +1,11 @@
-
-
-import Effect from "./Effect";
+import Effects from "./Effects";
 
 
 
 
 function App() {
   return (
- <Effect/>
+ <Effects/>
   );
 };
 export default App;
