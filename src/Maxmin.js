@@ -26,8 +26,8 @@ function Maxmin() {
             <h1>First:{a}</h1>
             <h1>Second:{b}</h1>
             <h1>Third:{c}</h1>
-            <h1>Max Value{max}</h1>
-            <h1>Min Value{min}</h1>
+            <h1>Max Value:{max}</h1>
+            <h1>Min Value:{min}</h1>
             <input type="text" value={a} onChange={handlechangeA} placeholder="enter first number" />
             <input type="text" value={b} onChange={handlechangeB} placeholder="enter second number" />
             <input type="text" value={c} onChange={handlechangeC} placeholder="enter third number" />
