@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 function Effect() {
     const [a, setA] = useState(0);
     const [b, setB] = useState(0);
@@ -28,8 +27,6 @@ function Effect() {
                 <input type="text" value={b} onChange={(e) => setB(e.target.value)} />
                 <input type="text" value={c} onChange={(e) => setC(e.target.value)} />
             </center>
-
-
         </div>
     );
 }
