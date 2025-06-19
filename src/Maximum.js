@@ -7,6 +7,7 @@ function Maximum() {
     const [d, setD] = useState('');
     const [max, setMax] = useState((a >= b && a >= c && a>=d) ? a : (b >= c && b>=d)? b: (c>=d)?c:d);
 
+    
     const handlechangeA = (event) => {
         setA(event.target.value);
     };
