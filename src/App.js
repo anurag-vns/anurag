@@ -1,12 +1,11 @@
 import React from "react";
-
-import ComponentB from "./ComponentB";
+import ComponentC from "./ComponentC";
 
 
 function App() {
   return (
     <div>
-      <ComponentB/>
+      <ComponentC/>
     </div>
     
   );
