@@ -1,8 +1,14 @@
-import Calculation from "./Calculation";
+import React from "react";
+
+import ComponentB from "./ComponentB";
+
 
 function App() {
   return (
-    <Calculation />
+    <div>
+      <ComponentB/>
+    </div>
+    
   );
-};
+}
 export default App;
