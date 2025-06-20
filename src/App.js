@@ -1,12 +1,13 @@
 import React from "react";
-import ComponentD from "./ComponentD";
+import Message from "./Message";
 
 function App() {
   return (
     <div>
-      <ComponentD />
+      <Message name="Anurag" age="36"/>
     </div>
 
   );
 }
+
 export default App;
