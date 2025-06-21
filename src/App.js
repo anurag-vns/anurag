@@ -1,10 +1,10 @@
 import React from "react";
-import Message from "./Message";
+import CmpA from "./CmpA";
 
 function App() {
   return (
     <div>
-      <Message name="Anurag" age="36"/>
+    <CmpA imagesSrc="photo/helo.png">hello </CmpA>
     </div>
 
   );
